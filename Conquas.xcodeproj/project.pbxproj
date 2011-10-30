@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BD094C145DAE8D0013F213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD094B145DAE8D0013F213 /* UIKit.framework */; };
+		07BD094E145DAE8D0013F213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD094D145DAE8D0013F213 /* Foundation.framework */; };
+		07BD0950145DAE8D0013F213 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD094F145DAE8D0013F213 /* CoreGraphics.framework */; };
+		07BD0956145DAE8D0013F213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07BD0954145DAE8D0013F213 /* InfoPlist.strings */; };
+		07BD0958145DAE8D0013F213 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BD0957145DAE8D0013F213 /* main.m */; };
+		07BD095C145DAE8D0013F213 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BD095B145DAE8D0013F213 /* AppDelegate.m */; };
+		07BD095F145DAE8D0013F213 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BD095D145DAE8D0013F213 /* MainStoryboard.storyboard */; };
+		07BD0962145DAE8D0013F213 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BD0961145DAE8D0013F213 /* ViewController.m */; };
+		07BD096A145DAE8D0013F213 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD0969145DAE8D0013F213 /* SenTestingKit.framework */; };
+		07BD096B145DAE8D0013F213 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD094B145DAE8D0013F213 /* UIKit.framework */; };
+		07BD096C145DAE8D0013F213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BD094D145DAE8D0013F213 /* Foundation.framework */; };
+		07BD0974145DAE8D0013F213 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07BD0972145DAE8D0013F213 /* InfoPlist.strings */; };
+		07BD0977145DAE8D0013F213 /* ConquasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BD0976145DAE8D0013F213 /* ConquasTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07BD096D145DAE8D0013F213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07BD093E145DAE8D0013F213 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07BD0946145DAE8D0013F213;
+			remoteInfo = Conquas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BD0947145DAE8D0013F213 /* Conquas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Conquas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BD094B145DAE8D0013F213 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07BD094D145DAE8D0013F213 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07BD094F145DAE8D0013F213 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07BD0953145DAE8D0013F213 /* Conquas-Info.plist */ = {isa = PBXFileReference; path = "Conquas-Info.plist"; sourceTree = "<group>"; };
+		07BD0955145DAE8D0013F213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07BD0957145DAE8D0013F213 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07BD0959145DAE8D0013F213 /* Conquas-Prefix.pch */ = {isa = PBXFileReference; path = "Conquas-Prefix.pch"; sourceTree = "<group>"; };
+		07BD095A145DAE8D0013F213 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		07BD095B145DAE8D0013F213 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07BD095E145DAE8D0013F213 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		07BD0960145DAE8D0013F213 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		07BD0961145DAE8D0013F213 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07BD0968145DAE8D0013F213 /* ConquasTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConquasTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BD0969145DAE8D0013F213 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		07BD0971145DAE8D0013F213 /* ConquasTests-Info.plist */ = {isa = PBXFileReference; path = "ConquasTests-Info.plist"; sourceTree = "<group>"; };
+		07BD0973145DAE8D0013F213 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07BD0975145DAE8D0013F213 /* ConquasTests.h */ = {isa = PBXFileReference; path = ConquasTests.h; sourceTree = "<group>"; };
+		07BD0976145DAE8D0013F213 /* ConquasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConquasTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BD0944145DAE8D0013F213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD094C145DAE8D0013F213 /* UIKit.framework in Frameworks */,
+				07BD094E145DAE8D0013F213 /* Foundation.framework in Frameworks */,
+				07BD0950145DAE8D0013F213 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BD0964145DAE8D0013F213 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD096A145DAE8D0013F213 /* SenTestingKit.framework in Frameworks */,
+				07BD096B145DAE8D0013F213 /* UIKit.framework in Frameworks */,
+				07BD096C145DAE8D0013F213 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BD093C145DAE8D0013F213 = {
+			isa = PBXGroup;
+			children = (
+				07BD0951145DAE8D0013F213 /* Conquas */,
+				07BD096F145DAE8D0013F213 /* ConquasTests */,
+				07BD094A145DAE8D0013F213 /* Frameworks */,
+				07BD0948145DAE8D0013F213 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07BD0948145DAE8D0013F213 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BD0947145DAE8D0013F213 /* Conquas.app */,
+				07BD0968145DAE8D0013F213 /* ConquasTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07BD094A145DAE8D0013F213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07BD094B145DAE8D0013F213 /* UIKit.framework */,
+				07BD094D145DAE8D0013F213 /* Foundation.framework */,
+				07BD094F145DAE8D0013F213 /* CoreGraphics.framework */,
+				07BD0969145DAE8D0013F213 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07BD0951145DAE8D0013F213 /* Conquas */ = {
+			isa = PBXGroup;
+			children = (
+				07BD095A145DAE8D0013F213 /* AppDelegate.h */,
+				07BD095B145DAE8D0013F213 /* AppDelegate.m */,
+				07BD095D145DAE8D0013F213 /* MainStoryboard.storyboard */,
+				07BD0960145DAE8D0013F213 /* ViewController.h */,
+				07BD0961145DAE8D0013F213 /* ViewController.m */,
+				07BD0952145DAE8D0013F213 /* Supporting Files */,
+			);
+			path = Conquas;
+			sourceTree = "<group>";
+		};
+		07BD0952145DAE8D0013F213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BD0953145DAE8D0013F213 /* Conquas-Info.plist */,
+				07BD0954145DAE8D0013F213 /* InfoPlist.strings */,
+				07BD0957145DAE8D0013F213 /* main.m */,
+				07BD0959145DAE8D0013F213 /* Conquas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07BD096F145DAE8D0013F213 /* ConquasTests */ = {
+			isa = PBXGroup;
+			children = (
+				07BD0975145DAE8D0013F213 /* ConquasTests.h */,
+				07BD0976145DAE8D0013F213 /* ConquasTests.m */,
+				07BD0970145DAE8D0013F213 /* Supporting Files */,
+			);
+			path = ConquasTests;
+			sourceTree = "<group>";
+		};
+		07BD0970145DAE8D0013F213 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07BD0971145DAE8D0013F213 /* ConquasTests-Info.plist */,
+				07BD0972145DAE8D0013F213 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07BD0946145DAE8D0013F213 /* Conquas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BD097A145DAE8D0013F213 /* Build configuration list for PBXNativeTarget "Conquas" */;
+			buildPhases = (
+				07BD0943145DAE8D0013F213 /* Sources */,
+				07BD0944145DAE8D0013F213 /* Frameworks */,
+				07BD0945145DAE8D0013F213 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Conquas;
+			productName = Conquas;
+			productReference = 07BD0947145DAE8D0013F213 /* Conquas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07BD0967145DAE8D0013F213 /* ConquasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BD097D145DAE8D0013F213 /* Build configuration list for PBXNativeTarget "ConquasTests" */;
+			buildPhases = (
+				07BD0963145DAE8D0013F213 /* Sources */,
+				07BD0964145DAE8D0013F213 /* Frameworks */,
+				07BD0965145DAE8D0013F213 /* Resources */,
+				07BD0966145DAE8D0013F213 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07BD096E145DAE8D0013F213 /* PBXTargetDependency */,
+			);
+			name = ConquasTests;
+			productName = ConquasTests;
+			productReference = 07BD0968145DAE8D0013F213 /* ConquasTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07BD093E145DAE8D0013F213 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "MobTwo Pte Ltd";
+			};
+			buildConfigurationList = 07BD0941145DAE8D0013F213 /* Build configuration list for PBXProject "Conquas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07BD093C145DAE8D0013F213;
+			productRefGroup = 07BD0948145DAE8D0013F213 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BD0946145DAE8D0013F213 /* Conquas */,
+				07BD0967145DAE8D0013F213 /* ConquasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BD0945145DAE8D0013F213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD0956145DAE8D0013F213 /* InfoPlist.strings in Resources */,
+				07BD095F145DAE8D0013F213 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BD0965145DAE8D0013F213 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD0974145DAE8D0013F213 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07BD0966145DAE8D0013F213 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07BD0943145DAE8D0013F213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD0958145DAE8D0013F213 /* main.m in Sources */,
+				07BD095C145DAE8D0013F213 /* AppDelegate.m in Sources */,
+				07BD0962145DAE8D0013F213 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07BD0963145DAE8D0013F213 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BD0977145DAE8D0013F213 /* ConquasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07BD096E145DAE8D0013F213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07BD0946145DAE8D0013F213 /* Conquas */;
+			targetProxy = 07BD096D145DAE8D0013F213 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07BD0954145DAE8D0013F213 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BD0955145DAE8D0013F213 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07BD095D145DAE8D0013F213 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BD095E145DAE8D0013F213 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		07BD0972145DAE8D0013F213 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BD0973145DAE8D0013F213 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07BD0978145DAE8D0013F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		07BD0979145DAE8D0013F213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07BD097B145DAE8D0013F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conquas/Conquas-Prefix.pch";
+				INFOPLIST_FILE = "Conquas/Conquas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07BD097C145DAE8D0013F213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conquas/Conquas-Prefix.pch";
+				INFOPLIST_FILE = "Conquas/Conquas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07BD097E145DAE8D0013F213 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Conquas.app/Conquas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conquas/Conquas-Prefix.pch";
+				INFOPLIST_FILE = "ConquasTests/ConquasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07BD097F145DAE8D0013F213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Conquas.app/Conquas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Conquas/Conquas-Prefix.pch";
+				INFOPLIST_FILE = "ConquasTests/ConquasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BD0941145DAE8D0013F213 /* Build configuration list for PBXProject "Conquas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BD0978145DAE8D0013F213 /* Debug */,
+				07BD0979145DAE8D0013F213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BD097A145DAE8D0013F213 /* Build configuration list for PBXNativeTarget "Conquas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BD097B145DAE8D0013F213 /* Debug */,
+				07BD097C145DAE8D0013F213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07BD097D145DAE8D0013F213 /* Build configuration list for PBXNativeTarget "ConquasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BD097E145DAE8D0013F213 /* Debug */,
+				07BD097F145DAE8D0013F213 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07BD093E145DAE8D0013F213 /* Project object */;
+}
